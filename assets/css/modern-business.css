@@ -1,0 +1,134 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: gainsboro;
+}
+
+/* animation - top*/
+.w3-animate-top{
+  position:relative;
+  animation:animatetop 0.4s
+}
+@keyframes animatetop{
+  from{top:-300px;
+      opacity:0
+  } 
+  to{top:0;opacity:1}
+}
+
+
+/* animation - left*/
+.w3-animate-left
+{
+    position:relative;
+    animation:animateleft 0.4s
+}
+@keyframes animateleft
+{
+    from{left:-300px;opacity:0
+    }
+     to{left:0;opacity:1
+    }
+}
+
+
+/* animation - right*/
+.w3-animate-right
+{
+    position:relative;
+    animation:animateright 0.4s
+}
+@keyframes animateright
+{
+    from{right:-300px;opacity:0
+    }
+     to{right:0;opacity:1}
+    }
+
+    /* animation bottom*/
+    .w3-animate-bottom
+{
+    position:relative;
+    animation:animatebottom 0.4s
+}
+@keyframes animatebottom
+{
+    from
+    {
+        bottom:-300px;opacity:0
+    } 
+    to
+    {
+        bottom:0;opacity:1
+    }
+}
+
+/* animation zoom*/
+
+.w3-animate-zoom 
+{
+    animation:animatezoom 0.6s
+}
+@keyframes animatezoom
+{
+    from
+    {
+        transform:scale(0)
+    }
+     to{
+     transform:scale(1)}
+    }
+.footer,.footer a{
+  color:white;
+}
+.navbar a{
+  font-size:20px;
+}
+.number_email{
+ font-size:13px;
+ position: absolute;
+ right:0;
+ top:0;
+  
+}
+.icon{
+  position: absolute;
+  right:80px;
+  top:10;
+}
+.icon ul li{
+  display: inline;
+  
+   
+}
+
+
+   
